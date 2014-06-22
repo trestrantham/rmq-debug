@@ -5,8 +5,8 @@ require "bundler"
 Bundler.require
 
 Motion::Project::App.setup do |app|
-  app.name = "PrograMax"
-  app.identifier = "com.collectiveidea.rmqdebug"
+  app.name = "RMQ Debug"
+  app.identifier = "com.test.rmqdebug"
   app.short_version = "0.1.0"
   app.version = app.short_version
 
